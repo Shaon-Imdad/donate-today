@@ -1,0 +1,169 @@
+            /* common */
+body {
+    font-family: 'Gentium Book Plus', serif;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section {
+    margin-bottom: 100px;
+}
+            /* banner start*/
+.banner {
+    background-image: url(../images/donation-banner.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.banner-inner {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.banner-inner h1 {
+    font-size: 65px;
+    color: white;
+}
+.banner-inner p {
+    font-size: 18px;
+    color: white;
+    padding: 0 60px;
+}
+.common-button {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 15px 25px;
+    border: none;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+.common-button:hover {
+    color: #ff5959;
+    border: 1px solid #ff5959;
+
+    background-color: white;
+}
+            /* banner end */
+
+            /* donate today section start */
+.common-div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.common-div h1 {
+    font-size: 45px;
+}
+.common-div p {
+    padding: 0 15%;
+}
+.amount {
+    display: flex;
+}
+.amount h3 {
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .3s;
+}
+.amount h3:hover {
+    border: 2px solid #ff5959;
+}
+.common-form input {
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+}
+            /* donate today section end */
+
+            /* our donation plan section start */
+.activities, .container {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.activities div {
+    width: 30%;
+    float: left;
+    margin-left: 3.3%;
+}
+.activities h3 {
+    margin-top: 1em;
+}
+.activities img {
+    height: 50px;
+    width: 50px;
+}
+            /* our donation plan section end */
+
+            /* gallery section start */
+.gallery-items {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.gallery-items h3 {
+    font-size: 45px;
+}
+.gallery-items div:nth-child(even) {
+    margin-left: 4%;
+}
+.content {
+    width: 48%;
+    float: left;
+}
+.content button {
+    margin-top: 20px;
+}
+.gallery-image {
+    width: 48%;
+    float: left;
+}
+.gallery-image img {
+    width: 100%;
+}
+            /* gallery section end */
+
+            /* top dones section start */
+.top-doner {
+    display: flex;
+    text-align: center;
+}
+.single-image {
+    width: 25%;
+}
+.single-image img {
+    width: 100%;
+}
+            /* top dones section end */
+
+            /* email form secton start */
+.email-input {
+    border-bottom: 0;
+}
+
+            /* email form secton end */
+
+            /* footer start */
+footer {
+    background-color: #0b0d17;
+    color: white;
+    text-align: center;
+}
+.footer-contents {
+    padding: 30px 0;
+}
+            /* footer end */
